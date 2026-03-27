@@ -285,7 +285,7 @@ export default function App() {
 
           {phase === "welcome" && (
             <div style={{ position: "absolute", left: "15vw", top: "50%", transform: `translateY(-50%) translateY(${20 - sp * 20}px)`, opacity: Math.max(0, (sp - 0.2) * 1.5), zIndex: 2, width: "clamp(250px,25vw,400px)", aspectRatio: "3/4", borderRadius: "16px", overflow: "hidden", boxShadow: "0 20px 40px rgba(0,0,0,0.4)" }}>
-              <img src="/wellness_placeholder.png" alt="Wellness" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+              <img src="/CopingwHumour/wellness_placeholder.png" alt="Wellness" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
           )}
 
